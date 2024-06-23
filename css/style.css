@@ -186,6 +186,17 @@ ul {
 		line-height: 20px;
 		width: 100%;
 	}
+	.nav {
+		display: none;
+	}
+	.header-button {
+		display: none;
+
+	}
+	.burger-nav {
+		display: block;
+		font-size: 30px;
+	}
 }	
 @media (max-width: 375px) {
 	.nav {
