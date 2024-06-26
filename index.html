@@ -65,11 +65,15 @@
                             <h5 class="button-box-h5">5,000 people like you have purchased this product!</h5>
                         </div>
                     </div>
-
                 </div>
 
                 <div class="s-1-right-box">
-                    <img class="s-1-right-img" src="images/img.png" alt="sofa">
+                    <picture>
+                        <source media="(min-width:1024px)" srcset="images/img1024px.jpg">
+                        <source media="(min-width:744px)" srcset="images/img744px.jpg">
+                        <source media="(min-width:375px)" srcset="images/img375px.jpg">
+                        <img class="s-1-right-img" src="images/img.png" alt="sofa">
+                      </picture>
                 </div>
 
             </div>
@@ -133,6 +137,18 @@
                 </div>
             </div>
 
+        </section>
+
+        <section>
+            <div class="banner-img">
+                <div class="banner-text">
+                    <h5 class="banner-text-h5">Tagline</h5>
+                    <h3 class="banner-text-h3">Long headline to turn your visitors into users</h3>
+                    <div class="banner-button">
+                        <p class="banner-button-p">Action</p>
+                    </div>
+                </div>  
+            </div>
         </section>
 
     </main>
